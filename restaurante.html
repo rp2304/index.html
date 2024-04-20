@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Chileno</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="hero.jpg" alt="">
+            <div class="hero-text">
+                <h1>Restaurante Chileno</h1>
+                <p>Saborea la auténtica comida chilena</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#pedidos">Pedidos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a nuestro restaurante</h2>
+            <p>"¡Bienvenido a nuestro restaurante, donde te invitamos a vivir una experiencia gastronómica auténticamente chilena! Sumérgete en un ambiente acogedor y familiar mientras disfrutas de la mejor comida típica de Chile. Nuestra carta ofrece una amplia variedad de platos tradicionales, preparados con ingredientes frescos y de la más alta calidad. Desde clásicos como el pastel de choclo hasta delicias contemporáneas con un toque chileno, cada bocado te transportará a los sabores y aromas de este hermoso país. ¡Ven y descubre por qué somos el destino preferido para los amantes de la comida chilena!"</p>
+        </section>
+    </main>
+        <section id="menu">
+            <h2>Menú</h2>
+            <div class="menu-categorias">
+                <h3>Entradas</h3>
+                <ul>
+                    <li>Empanadas de pino</li>
+                    <li>Pastel de choclo</li>
+                    <li>Sopaipillas</li>
+                </ul>
+            </div>
+            <div class="menu-categorias">
+                <h3>Platos de fondo</h3>
+                <ul>
+                    <li>Porotos con riendas</li>
+                    <li>Cazuela</li>
+                    <li>curanto</li>
+    
+                </ul>
+            </div>
+        </section>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="galeria-imagenes">
+                <img src="imagenes/cazuela-chilena.jpg" alt="Imagen del restaurante">
+                <img src="imagenes/curanto.jpg" alt="Imagen de restaurante">
+                <img src="imagenes/empanada.avif" alt="Imagen del restaurante">
+                <img src="imagenes/pastel de jaiva.webp" alt="Imagen del restaurante">
+                <img src="imagenes/pasteldechoclo.jpeg" alt="Imagen del restaurante">
+                <img src="imagenes/porotosconrienda.jpeg" alt="Imagen del restaurante">
+            </div>
+        </section>
+
+        <section id="pedidos">
+            <h2>Pedidos</h2>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <label for="pedido">Pedido:</label>
+                <textarea id="pedido" name="pedido" rows="5" required></textarea>
+
+                <button type="submit">Enviar pedido</button>
+            </form>
+        </section>
+
+        <section id="contacto">
+            <h2> informacion de Contacto restoran</h2>
+            <p>Dirección: camino maria dolores</p>
+            <p>Teléfono: +56 2 2222 2222</p>
+            <p>Email: contacto@restaurantechileno.cl</p>
+
+            <h3>crear de pagina web</h3>
+            <p>nombre: michael Rios</p>
+            <p>correo: @gmail.com</p>
+            <p>telefono: +56 9 9999 9999</p>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Síguenos en redes sociales</h3>
+        <div>
+            <img src="imagenes/logo face.jpeg" alt="Facebook" width= 25px>
+            <img src="imagenes/logo de insta.jpeg" alt="Instagram" width=25px>
+            <img src="imagenes/logo-tiktok-icone-1024.png" alt="tik tok" width=25px>
+        </div>
+        <p>&copy; 2024 Restaurante Chileno</p>
+    </footer>
+</body>
+</html>
